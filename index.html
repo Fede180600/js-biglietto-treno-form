@@ -9,7 +9,68 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+
+    <div class="container">
+        
+        <div class="form-item">
+            <label for="user-full-name" class="text-center">Nome e Cognome</label>
+            <input type="text" name="user-full-name" id="user-full-name">
+        </div>
+
+        <div class="form-item">
+            <label for="user-km" class="text-center">Km da percorrere?</label>
+            <input type="text" name="user-km" id="user-km">
+        </div>
+
+        <div class="form-item">
+            <label for="user-age" class="text-center">Fascia d'età</label>
+            <select name="user-age" id="user-age">
+                <option value=""></option>
+                <option value="Minorenne">Minorenne</option>
+                <option value="Maggiorenne">Maggiorenne</option>
+                <option value="Over65">Over 65</option>
+            </select>
+        </div>
+
+        <div class="buttons m-top">
+            <button id="form-btn" class="m-right">Genera</button>
+            <button id="form-clear-btn">Annulla</button>
+        </div>
+
+    </div>
+
+    <div class="result d-none">
+
+        <div class="result-wrap">
+
+            <div class="user-box box">
+                <h2>Nome Passeggero: </h2>
+                <h3 id="my-name"></h3>
+            </div>
+
+            <div class="offert box">
+                <h4>Offerta: </h4>
+                <h5 id="my-offer"></h5>
+            </div>
+
+            <div class="wagon box">
+                <h4>Carrozza: </h4>
+                <h5 id="my-wagon"></h5>
+            </div>
+
+            <div class="cp-code box">
+                <h4>Codice CP: </h4>
+                <h5 id="my-cp"></h5>
+            </div>
+
+            <div class="ticket box">
+                <h4>Costo biglietto: </h4>
+                <h5 id="my-ticket"></h5>
+            </div>
+
+        </div>
+
+    </div>
 
     <!-- SCRIPT JS -->
     <script src="js/script.js" type="text/javascript"></script>
