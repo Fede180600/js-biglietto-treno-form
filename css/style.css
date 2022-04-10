@@ -20,10 +20,17 @@ body {
 }
 
 /* FORM CONTAINER */
+h1.ticket-title {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 20px;
+}
+
 .container {
     padding: 10px;
     width: 60%;
-    margin: 40px auto 30px;
+    margin: 20px auto 10px;
     text-align: center;
     background-color: whitesmoke;
     color:#b91450;
@@ -62,12 +69,31 @@ input, label {
     display: none;
 }
 
-.result {
+.container-result {
     width: 60%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.result {
+    width: 100%;
     margin: 0 auto;
     padding: 30px;
     background-color: whitesmoke;
     border-radius: 5px;
+}
+
+h2.passenger {
+    width: 95%;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+
+h2.your-ticket {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
 }
 
 .result h3, h5 {

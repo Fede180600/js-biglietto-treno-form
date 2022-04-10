@@ -10,6 +10,8 @@
 </head>
 <body>
 
+    <h1 class="ticket-title">Calcola il prezzo del tuo biglietto</h1>
+
     <div class="container">
         
         <div class="form-item">
@@ -39,37 +41,42 @@
 
     </div>
 
-    <div class="result d-none">
 
-        <div class="result-wrap">
+    <div class="container-result d-none">
+        <h2 class="your-ticket">Il tuo Biglietto</h2>
 
-            <div class="user-box box">
-                <h2>Nome Passeggero: </h2>
-                <h3 id="my-name"></h3>
+        <div class="result">
+            <h2 class="passenger">Dettagli passeggero</h2>
+            <div class="result-wrap">
+
+                <div class="user-box box">
+                    <h2>Nome Passeggero: </h2>
+                    <h3 id="my-name"></h3>
+                </div>
+
+                <div class="offert box">
+                    <h4>Offerta: </h4>
+                    <h5 id="my-offer"></h5>
+                </div>
+
+                <div class="wagon box">
+                    <h4>Carrozza: </h4>
+                    <h5 id="my-wagon"></h5>
+                </div>
+
+                <div class="cp-code box">
+                    <h4>Codice CP: </h4>
+                    <h5 id="my-cp"></h5>
+                </div>
+
+                <div class="ticket box">
+                    <h4>Costo biglietto: </h4>
+                    <h5 id="my-ticket"></h5>
+                </div>
+
             </div>
-
-            <div class="offert box">
-                <h4>Offerta: </h4>
-                <h5 id="my-offer"></h5>
-            </div>
-
-            <div class="wagon box">
-                <h4>Carrozza: </h4>
-                <h5 id="my-wagon"></h5>
-            </div>
-
-            <div class="cp-code box">
-                <h4>Codice CP: </h4>
-                <h5 id="my-cp"></h5>
-            </div>
-
-            <div class="ticket box">
-                <h4>Costo biglietto: </h4>
-                <h5 id="my-ticket"></h5>
-            </div>
-
         </div>
-
+        
     </div>
 
     <!-- SCRIPT JS -->

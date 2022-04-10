@@ -62,7 +62,7 @@ formBtn.addEventListener("click",
         priceResponse.innerHTML = `${priceFormatted}`;
 
         //Far apparire il risultato generato schiaccando il bottone "genera"
-        const resultContainer = document.querySelector(".result");
+        const resultContainer = document.querySelector(".container-result");
         resultContainer.classList.remove("d-none");
     }
 );
@@ -74,7 +74,7 @@ formClearBtn.addEventListener("click",
     function() {
 
         // Nascondo result container
-        const resultContainer = document.querySelector(".result");
+        const resultContainer = document.querySelector(".container-result");
         resultContainer.classList.add("d-none");
 
         // Ripulsco i campi
