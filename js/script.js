@@ -42,7 +42,7 @@ formBtn.addEventListener("click",
         const wagonNumber = Math.floor(Math.random() * 12) + 1;
         console.log("carrozza: ", wagonNumber);
         //Generare codice CP 
-        const cpCode = Math.floor(Math.random() * 100000) + 80000;
+        const cpCode = Math.floor(Math.random() * (100000 - 90000) ) + 90000;
         console.log("cp: ", cpCode);
         
         //inserire i dati forniti dall'utente e i dati generati dal programma negli appositi blocchi
